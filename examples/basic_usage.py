@@ -131,7 +131,7 @@ def example_3_parameter_effects():
     edges = [(0, 1, 1.0), (1, 2, 0.01), (2, 3, 1.0)]
     A = create_laplacian_from_edges(edges, 4)
     
-    gamma_values = [3.0, 5.0, 7.0, 10.0]
+    gamma_values = [4.1, 5.0, 7.0, 10.0]
     
     print(f"{'Gamma':<8} {'Components':<12} {'Avg Conductance':<15} {'Time (ms)':<10}")
     print("-" * 50)
