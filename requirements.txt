@@ -1,0 +1,18 @@
+# Core dependencies
+numpy>=1.19.0
+scipy>=1.7.0
+
+# Optional dependencies for visualization
+matplotlib>=3.3.0
+networkx>=2.5
+seaborn>=0.11.0
+
+# Development dependencies (optional)
+pytest>=6.0.0
+pytest-cov>=2.0.0
+black>=21.0.0
+flake8>=3.8.0
+
+# Documentation dependencies (optional)
+sphinx>=4.0.0
+sphinx-rtd-theme>=1.0.0
