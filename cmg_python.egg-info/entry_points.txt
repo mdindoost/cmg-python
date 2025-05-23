@@ -1,0 +1,3 @@
+[console_scripts]
+cmg-demo = cmg.cli:main
+
