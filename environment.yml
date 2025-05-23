@@ -1,0 +1,12 @@
+name: cmg-python
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.6
+  - numpy
+  - scipy
+  - matplotlib
+  - networkx
+  - pip
+  - pip:
+    - -e .
