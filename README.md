@@ -243,3 +243,48 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **PyPI**: [https://pypi.org/project/cmg-python/](https://pypi.org/project/cmg-python/)
 - **Issues**: [https://github.com/yourusername/cmg-python/issues](https://github.com/yourusername/cmg-python/issues)
 - **Original Paper**: [DOI:10.1016/j.cviu.2011.05.013](https://doi.org/10.1016/j.cviu.2011.05.013)
+
+## Installation
+
+### Method 1: Install from GitHub (Recommended)
+```bash
+# Clone and install in one command
+pip install git+https://github.com/mdindoost/cmg-python.git
+Method 2: Development Installation
+bash# For developers who want to modify the code
+git clone https://github.com/mdindoost/cmg-python.git
+cd cmg-python
+pip install -e .
+Method 3: Manual Installation
+bashgit clone https://github.com/mdindoost/cmg-python.git
+cd cmg-python
+pip install -r requirements.txt
+pip install -e .
+Quick Test
+bash# Test the installation
+python -c "import cmg; print('✓ CMG-Python ready to use!')"
+
+# Run demo
+cmg-demo
+Requirements
+
+Python 3.6+
+NumPy
+SciPy
+(Optional) matplotlib for visualization
+(Optional) networkx for advanced graph operations
+
+
+## Installation
+
+See INSTALL_GUIDE.md for detailed installation instructions.
+
+Quick start:
+bash echo pip install git+https://github.com/mdindoost/cmg-python.git echo 
+
+## Installation
+
+See INSTALL_GUIDE.md for detailed installation instructions.
+
+Quick start:
+bash echo pip install git+https://github.com/mdindoost/cmg-python.git echo 
