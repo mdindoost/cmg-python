@@ -26,11 +26,11 @@ setup(
     name="cmg-python",
     version="0.1.0",
     author="Mohammad Doostmohammadi",
-    author_email="your.email@example.com",  # Replace with your email
+    author_email="md724@NJIT.edu",  # Replace with your email
     description="Python implementation of Combinatorial Multigrid (CMG) Steiner Group algorithm",
     long_description=read_readme(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/cmg-python",  # Replace with your GitHub URL
+    url="https://github.com/mdindoost/cmg-python",  # Replace with your GitHub URL
     packages=find_packages(),
     classifiers=[
         "Development Status :: 3 - Alpha",

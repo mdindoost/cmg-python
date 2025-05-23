@@ -2,7 +2,7 @@
 
 [![Python Version](https://img.shields.io/pypi/pyversions/cmg-python)](https://pypi.org/project/cmg-python/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Build Status](https://github.com/yourusername/cmg-python/workflows/tests/badge.svg)](https://github.com/yourusername/cmg-python/actions)
+[![Build Status](https://github.com/yourusername/cmg-python/workflows/tests/badge.svg)](https://github.com/mdindoost/cmg-python/actions)
 
 A Python implementation of the **Combinatorial Multigrid (CMG) Steiner Group algorithm** from the paper:
 
