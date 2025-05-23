@@ -38,7 +38,7 @@ pip install cmg-python
 
 ### From source
 ```bash
-git clone https://github.com/yourusername/cmg-python.git
+git clone https://github.com/mdindoost/cmg-python.git
 cd cmg-python
 pip install -e .
 ```
