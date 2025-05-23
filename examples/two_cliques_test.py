@@ -335,7 +335,7 @@ def main():
     print("=" * 50)
     
     # Create the graph
-    clique1_size = 4
+    clique1_size = 8
     clique2_size = 4  
     bridge_weight = 0.01  # Very weak bridge
     clique_weight = 2.0   # Strong intra-clique connections
