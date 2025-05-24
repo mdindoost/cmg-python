@@ -26,11 +26,11 @@ setup(
     name="cmg-python",
     version="0.1.0",
     author="Mohammad Doostmohammadi",
-    author_email="md724@NJIT.edu",  # Replace with your email
+    author_email="md724@NJIT.edu", 
     description="Python implementation of Combinatorial Multigrid (CMG) Steiner Group algorithm",
     long_description=read_readme(),
     long_description_content_type="text/markdown",
-    url="https://github.com/mdindoost/cmg-python",  # Replace with your GitHub URL
+    url="https://github.com/mdindoost/cmg-python",  
     packages=find_packages(),
     classifiers=[
         "Development Status :: 3 - Alpha",
@@ -78,8 +78,8 @@ setup(
     },
     keywords="multigrid, graph theory, linear algebra, steiner tree, preconditioner",
     project_urls={
-        "Bug Reports": "https://github.com/yourusername/cmg-python/issues",
-        "Source": "https://github.com/yourusername/cmg-python",
+        "Bug Reports": "https://github.com/mdindoost/cmg-python/issues",
+        "Source": "https://github.com/mdindoost/cmg-python",
         "Documentation": "https://cmg-python.readthedocs.io/",
     },
 )
