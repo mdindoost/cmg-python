@@ -1,0 +1,79 @@
+2025-06-24 12:29:18,162 - INFO - ================================================================================
+2025-06-24 12:29:18,162 - INFO - CMG BOUNDARY PRESERVATION FAILURE DETECTION
+2025-06-24 12:29:18,162 - INFO - ================================================================================
+2025-06-24 12:29:18,162 - INFO - Testing increasingly challenging conditions to find limits...
+2025-06-24 12:29:18,162 - INFO - 
+2025-06-24 12:29:18,162 - INFO - 
+============================================================
+2025-06-24 12:29:18,162 - INFO - TESTING: Strong Inter-cluster Connections
+2025-06-24 12:29:18,162 - INFO - ============================================================
+2025-06-24 12:29:18,162 - INFO - 🔥 Testing Strong Inter-cluster Connections
+2025-06-24 12:29:18,162 - INFO - Goal: Find if strong bridges break boundary preservation
+2025-06-24 12:29:19,037 - INFO -   Inter-p 5.0%: purity=1.000000, preserved=True, communities=28
+2025-06-24 12:29:19,827 - INFO -   Inter-p 10.0%: purity=1.000000, preserved=True, communities=28
+2025-06-24 12:29:20,636 - INFO -   Inter-p 20.0%: purity=1.000000, preserved=True, communities=28
+2025-06-24 12:29:21,467 - INFO -   Inter-p 30.0%: purity=1.000000, preserved=True, communities=28
+2025-06-24 12:29:22,213 - INFO -   Inter-p 50.0%: purity=1.000000, preserved=True, communities=28
+2025-06-24 12:29:22,965 - INFO -   Inter-p 70.0%: purity=1.000000, preserved=True, communities=28
+2025-06-24 12:29:23,733 - INFO -   Inter-p 90.0%: purity=1.000000, preserved=True, communities=28
+2025-06-24 12:29:23,734 - INFO - ✅ No boundary failures in Strong Inter-cluster Connections
+2025-06-24 12:29:23,734 - INFO - 
+============================================================
+2025-06-24 12:29:23,734 - INFO - TESTING: Identical Cluster Properties
+2025-06-24 12:29:23,734 - INFO - ============================================================
+2025-06-24 12:29:23,734 - INFO - 🔥 Testing Identical Cluster Properties
+2025-06-24 12:29:23,734 - INFO - Goal: Check if identical structure confuses CMG
+2025-06-24 12:29:24,486 - INFO -   identical_sizes: purity=1.000000, preserved=True
+2025-06-24 12:29:24,952 - INFO -   identical_structure: purity=1.000000, preserved=True
+2025-06-24 12:29:25,640 - INFO -   highly_similar: purity=1.000000, preserved=True
+2025-06-24 12:29:25,640 - INFO - ✅ No boundary failures in Identical Cluster Properties
+2025-06-24 12:29:25,640 - INFO - 
+============================================================
+2025-06-24 12:29:25,640 - INFO - TESTING: Extreme Weight Ratios
+2025-06-24 12:29:25,640 - INFO - ============================================================
+2025-06-24 12:29:25,640 - INFO - 🔥 Testing Extreme Weight Ratios
+2025-06-24 12:29:25,640 - INFO - Goal: Test if extreme weight differences break algorithm
+2025-06-24 12:29:26,398 - INFO -   huge_intra_tiny_inter: purity=1.000000, preserved=True
+2025-06-24 12:29:27,124 - INFO -   tiny_intra_huge_inter: purity=0.090000, preserved=False
+2025-06-24 12:29:27,308 - INFO -   extreme_ratio_1M: purity=1.000000, preserved=True
+2025-06-24 12:29:27,389 - INFO -   all_equal_weights: purity=0.000000, preserved=False
+2025-06-24 12:29:27,389 - WARNING - 🚨 BOUNDARY FAILURES FOUND in Extreme Weight Ratios
+2025-06-24 12:29:27,389 - INFO - 
+============================================================
+2025-06-24 12:29:27,389 - INFO - TESTING: Degenerate Structures
+2025-06-24 12:29:27,389 - INFO - ============================================================
+2025-06-24 12:29:27,389 - INFO - 🔥 Testing Degenerate Graph Structures
+2025-06-24 12:29:27,389 - INFO - Goal: Test pathological cases
+2025-06-24 12:29:27,445 - INFO -   single_bridge: purity=1.000000, preserved=True
+2025-06-24 12:29:27,476 - INFO -   star_clusters: purity=1.000000, preserved=True
+2025-06-24 12:29:27,547 - INFO -   chain_clusters: purity=1.000000, preserved=True
+2025-06-24 12:29:27,547 - INFO - ✅ No boundary failures in Degenerate Structures
+2025-06-24 12:29:27,547 - INFO - 
+================================================================================
+2025-06-24 12:29:27,547 - INFO - BOUNDARY PRESERVATION ANALYSIS
+2025-06-24 12:29:27,548 - INFO - ================================================================================
+2025-06-24 12:29:27,548 - INFO - 
+📊 OVERALL RESULTS:
+2025-06-24 12:29:27,548 - INFO -    Total successful tests: 17
+2025-06-24 12:29:27,548 - INFO -    Perfect boundary preservation: 15/17 (88.2%)
+2025-06-24 12:29:27,548 - INFO -    Boundary failures: 2
+2025-06-24 12:29:27,548 - INFO - 
+🚨 FAILURE ANALYSIS:
+2025-06-24 12:29:27,548 - INFO -      tiny_intra_huge_inter: purity=0.090000
+2025-06-24 12:29:27,548 - INFO -        Challenge: Tiny intra weights, huge inter weights
+2025-06-24 12:29:27,548 - INFO -      all_equal_weights: purity=0.000000
+2025-06-24 12:29:27,548 - INFO -        Challenge: All edges have identical weights
+2025-06-24 12:29:27,548 - INFO - 
+📈 PURITY ANALYSIS:
+2025-06-24 12:29:27,548 - INFO -    Minimum purity: 0.000000
+2025-06-24 12:29:27,548 - INFO -    Maximum purity: 1.000000
+2025-06-24 12:29:27,548 - INFO -    Average purity: 0.887647
+2025-06-24 12:29:27,548 - INFO - 
+🎓 RESEARCH IMPLICATIONS:
+2025-06-24 12:29:27,548 - INFO -    📝 CMG has discoverable failure conditions
+2025-06-24 12:29:27,548 - INFO -    📝 Boundary preservation has limits under extreme conditions
+2025-06-24 12:29:27,548 - INFO -    📝 Important to document these limitations
+2025-06-24 12:29:27,548 - INFO -    📝 Some conditions significantly degrade performance
+2025-06-24 12:29:27,548 - INFO - 
+================================================================================
+2025-06-24 12:29:27,550 - INFO - Results saved to boundary_failure_results_20250624_122927.json

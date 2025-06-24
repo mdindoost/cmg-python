@@ -1,0 +1,342 @@
+[
+  {
+    "test_name": "strong_inter_p0.05",
+    "test_type": "strong_connections",
+    "n_nodes": 100,
+    "n_communities": 28,
+    "main_cluster_purity": 1.0,
+    "boundary_preserved": true,
+    "runtime_seconds": 0.8654470443725586,
+    "challenge_description": "Inter-cluster probability 5.0%",
+    "challenge_parameters": {
+      "inter_prob": 0.05,
+      "inter_weight_range": [
+        1.5,
+        2.5
+      ]
+    },
+    "success": true,
+    "error_message": null
+  },
+  {
+    "test_name": "strong_inter_p0.1",
+    "test_type": "strong_connections",
+    "n_nodes": 100,
+    "n_communities": 28,
+    "main_cluster_purity": 1.0,
+    "boundary_preserved": true,
+    "runtime_seconds": 0.7824110984802246,
+    "challenge_description": "Inter-cluster probability 10.0%",
+    "challenge_parameters": {
+      "inter_prob": 0.1,
+      "inter_weight_range": [
+        1.5,
+        2.5
+      ]
+    },
+    "success": true,
+    "error_message": null
+  },
+  {
+    "test_name": "strong_inter_p0.2",
+    "test_type": "strong_connections",
+    "n_nodes": 100,
+    "n_communities": 28,
+    "main_cluster_purity": 1.0,
+    "boundary_preserved": true,
+    "runtime_seconds": 0.8015170097351074,
+    "challenge_description": "Inter-cluster probability 20.0%",
+    "challenge_parameters": {
+      "inter_prob": 0.2,
+      "inter_weight_range": [
+        1.5,
+        2.5
+      ]
+    },
+    "success": true,
+    "error_message": null
+  },
+  {
+    "test_name": "strong_inter_p0.3",
+    "test_type": "strong_connections",
+    "n_nodes": 100,
+    "n_communities": 28,
+    "main_cluster_purity": 1.0,
+    "boundary_preserved": true,
+    "runtime_seconds": 0.8222527503967285,
+    "challenge_description": "Inter-cluster probability 30.0%",
+    "challenge_parameters": {
+      "inter_prob": 0.3,
+      "inter_weight_range": [
+        1.5,
+        2.5
+      ]
+    },
+    "success": true,
+    "error_message": null
+  },
+  {
+    "test_name": "strong_inter_p0.5",
+    "test_type": "strong_connections",
+    "n_nodes": 100,
+    "n_communities": 28,
+    "main_cluster_purity": 1.0,
+    "boundary_preserved": true,
+    "runtime_seconds": 0.7373769283294678,
+    "challenge_description": "Inter-cluster probability 50.0%",
+    "challenge_parameters": {
+      "inter_prob": 0.5,
+      "inter_weight_range": [
+        1.5,
+        2.5
+      ]
+    },
+    "success": true,
+    "error_message": null
+  },
+  {
+    "test_name": "strong_inter_p0.7",
+    "test_type": "strong_connections",
+    "n_nodes": 100,
+    "n_communities": 28,
+    "main_cluster_purity": 1.0,
+    "boundary_preserved": true,
+    "runtime_seconds": 0.7406940460205078,
+    "challenge_description": "Inter-cluster probability 70.0%",
+    "challenge_parameters": {
+      "inter_prob": 0.7,
+      "inter_weight_range": [
+        1.5,
+        2.5
+      ]
+    },
+    "success": true,
+    "error_message": null
+  },
+  {
+    "test_name": "strong_inter_p0.9",
+    "test_type": "strong_connections",
+    "n_nodes": 100,
+    "n_communities": 28,
+    "main_cluster_purity": 1.0,
+    "boundary_preserved": true,
+    "runtime_seconds": 0.756594181060791,
+    "challenge_description": "Inter-cluster probability 90.0%",
+    "challenge_parameters": {
+      "inter_prob": 0.9,
+      "inter_weight_range": [
+        1.5,
+        2.5
+      ]
+    },
+    "success": true,
+    "error_message": null
+  },
+  {
+    "test_name": "identical_sizes",
+    "test_type": "identical_properties",
+    "n_nodes": 100,
+    "n_communities": 28,
+    "main_cluster_purity": 1.0,
+    "boundary_preserved": true,
+    "runtime_seconds": 0.7422878742218018,
+    "challenge_description": "Identical cluster sizes",
+    "challenge_parameters": {
+      "name": "identical_sizes",
+      "cluster_sizes": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "intra_p": 0.8,
+      "inter_p": 0.05,
+      "description": "Identical cluster sizes"
+    },
+    "success": true,
+    "error_message": null
+  },
+  {
+    "test_name": "identical_structure",
+    "test_type": "identical_properties",
+    "n_nodes": 80,
+    "n_communities": 21,
+    "main_cluster_purity": 1.0,
+    "boundary_preserved": true,
+    "runtime_seconds": 0.46224403381347656,
+    "challenge_description": "Identical sizes and structure",
+    "challenge_parameters": {
+      "name": "identical_structure",
+      "cluster_sizes": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "intra_p": 0.8,
+      "inter_p": 0.05,
+      "description": "Identical sizes and structure"
+    },
+    "success": true,
+    "error_message": null
+  },
+  {
+    "test_name": "highly_similar",
+    "test_type": "identical_properties",
+    "n_nodes": 100,
+    "n_communities": 25,
+    "main_cluster_purity": 1.0,
+    "boundary_preserved": true,
+    "runtime_seconds": 0.6799321174621582,
+    "challenge_description": "Highly similar cluster sizes",
+    "challenge_parameters": {
+      "name": "highly_similar",
+      "cluster_sizes": [
+        24,
+        25,
+        25,
+        26
+      ],
+      "intra_p": 0.8,
+      "inter_p": 0.05,
+      "description": "Highly similar cluster sizes"
+    },
+    "success": true,
+    "error_message": null
+  },
+  {
+    "test_name": "huge_intra_tiny_inter",
+    "test_type": "extreme_weights",
+    "n_nodes": 100,
+    "n_communities": 28,
+    "main_cluster_purity": 1.0,
+    "boundary_preserved": true,
+    "runtime_seconds": 0.7491264343261719,
+    "challenge_description": "Huge intra weights, tiny inter weights",
+    "challenge_parameters": {
+      "name": "huge_intra_tiny_inter",
+      "intra_range": [
+        100.0,
+        200.0
+      ],
+      "inter_range": [
+        0.001,
+        0.01
+      ],
+      "description": "Huge intra weights, tiny inter weights"
+    },
+    "success": true,
+    "error_message": null
+  },
+  {
+    "test_name": "tiny_intra_huge_inter",
+    "test_type": "extreme_weights",
+    "n_nodes": 100,
+    "n_communities": 26,
+    "main_cluster_purity": 0.09,
+    "boundary_preserved": false,
+    "runtime_seconds": 0.7186131477355957,
+    "challenge_description": "Tiny intra weights, huge inter weights",
+    "challenge_parameters": {
+      "name": "tiny_intra_huge_inter",
+      "intra_range": [
+        0.001,
+        0.01
+      ],
+      "inter_range": [
+        100.0,
+        200.0
+      ],
+      "description": "Tiny intra weights, huge inter weights"
+    },
+    "success": true,
+    "error_message": null
+  },
+  {
+    "test_name": "extreme_ratio_1M",
+    "test_type": "extreme_weights",
+    "n_nodes": 100,
+    "n_communities": 4,
+    "main_cluster_purity": 1.0,
+    "boundary_preserved": true,
+    "runtime_seconds": 0.1788182258605957,
+    "challenge_description": "1 million to 1 weight ratio",
+    "challenge_parameters": {
+      "name": "extreme_ratio_1M",
+      "intra_range": [
+        1000.0,
+        1000.0
+      ],
+      "inter_range": [
+        0.001,
+        0.001
+      ],
+      "description": "1 million to 1 weight ratio"
+    },
+    "success": true,
+    "error_message": null
+  },
+  {
+    "test_name": "all_equal_weights",
+    "test_type": "extreme_weights",
+    "n_nodes": 100,
+    "n_communities": 1,
+    "main_cluster_purity": 0.0,
+    "boundary_preserved": false,
+    "runtime_seconds": 0.07536911964416504,
+    "challenge_description": "All edges have identical weights",
+    "challenge_parameters": {
+      "name": "all_equal_weights",
+      "intra_range": [
+        1.0,
+        1.0
+      ],
+      "inter_range": [
+        1.0,
+        1.0
+      ],
+      "description": "All edges have identical weights"
+    },
+    "success": true,
+    "error_message": null
+  },
+  {
+    "test_name": "single_bridge",
+    "test_type": "degenerate_structure",
+    "n_nodes": 40,
+    "n_communities": 2,
+    "main_cluster_purity": 1.0,
+    "boundary_preserved": true,
+    "runtime_seconds": 0.05508899688720703,
+    "challenge_description": "Two clusters connected by single edge",
+    "challenge_parameters": {},
+    "success": true,
+    "error_message": null
+  },
+  {
+    "test_name": "star_clusters",
+    "test_type": "degenerate_structure",
+    "n_nodes": 32,
+    "n_communities": 32,
+    "main_cluster_purity": 1.0,
+    "boundary_preserved": true,
+    "runtime_seconds": 0.030339479446411133,
+    "challenge_description": "Star-shaped clusters",
+    "challenge_parameters": {},
+    "success": true,
+    "error_message": null
+  },
+  {
+    "test_name": "chain_clusters",
+    "test_type": "degenerate_structure",
+    "n_nodes": 30,
+    "n_communities": 6,
+    "main_cluster_purity": 1.0,
+    "boundary_preserved": true,
+    "runtime_seconds": 0.07013249397277832,
+    "challenge_description": "Chain of small clusters",
+    "challenge_parameters": {},
+    "success": true,
+    "error_message": null
+  }
+]

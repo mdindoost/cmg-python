@@ -1,0 +1,61 @@
+graph_name,method,method_type,n_communities,runtime,avg_conductance,type,n_nodes,n_clusters,cluster_sizes,intra_prob,inter_prob,difficulty,seed,ari,nmi,ami
+synthetic_easy_2clusters_seed42,CMG_gamma_5.0,CMG,15,0.23044800758361816,0.43103034158262354,synthetic_clustered,50,2,"[25, 25]",0.8,0.05,easy_2clusters,42,0.0,0.0,0.0
+synthetic_easy_2clusters_seed42,CMG_gamma_7.0,CMG,15,0.21309375762939453,0.43103034158262354,synthetic_clustered,50,2,"[25, 25]",0.8,0.05,easy_2clusters,42,0.0,0.0,0.0
+synthetic_easy_2clusters_seed42,CMG_gamma_10.0,CMG,15,0.25018787384033203,0.43103034158262354,synthetic_clustered,50,2,"[25, 25]",0.8,0.05,easy_2clusters,42,0.0,0.0,0.0
+synthetic_easy_2clusters_seed42,louvain,baseline,2,0.020543575286865234,inf,synthetic_clustered,50,2,"[25, 25]",0.8,0.05,easy_2clusters,42,0.0,0.0,0.0
+synthetic_easy_2clusters_seed42,random_k2,baseline,2,7.724761962890625e-05,inf,synthetic_clustered,50,2,"[25, 25]",0.8,0.05,easy_2clusters,42,0.0,0.0,0.0
+synthetic_easy_2clusters_seed123,CMG_gamma_5.0,CMG,11,0.18545985221862793,0.4099408172472503,synthetic_clustered,50,2,"[25, 25]",0.8,0.05,easy_2clusters,123,0.0,0.0,0.0
+synthetic_easy_2clusters_seed123,CMG_gamma_7.0,CMG,11,0.15810728073120117,0.4099408172472503,synthetic_clustered,50,2,"[25, 25]",0.8,0.05,easy_2clusters,123,0.0,0.0,0.0
+synthetic_easy_2clusters_seed123,CMG_gamma_10.0,CMG,11,0.15961885452270508,0.4099408172472503,synthetic_clustered,50,2,"[25, 25]",0.8,0.05,easy_2clusters,123,0.0,0.0,0.0
+synthetic_easy_2clusters_seed123,louvain,baseline,2,0.0160372257232666,inf,synthetic_clustered,50,2,"[25, 25]",0.8,0.05,easy_2clusters,123,0.0,0.0,0.0
+synthetic_easy_2clusters_seed123,random_k2,baseline,2,3.0517578125e-05,inf,synthetic_clustered,50,2,"[25, 25]",0.8,0.05,easy_2clusters,123,0.0,0.0,0.0
+synthetic_medium_2clusters_seed42,CMG_gamma_5.0,CMG,12,0.18929052352905273,0.40351888060538893,synthetic_clustered,50,2,"[25, 25]",0.6,0.1,medium_2clusters,42,0.0,0.0,0.0
+synthetic_medium_2clusters_seed42,CMG_gamma_7.0,CMG,12,0.16897177696228027,0.40351888060538893,synthetic_clustered,50,2,"[25, 25]",0.6,0.1,medium_2clusters,42,0.0,0.0,0.0
+synthetic_medium_2clusters_seed42,CMG_gamma_10.0,CMG,12,0.16867899894714355,0.40351888060538893,synthetic_clustered,50,2,"[25, 25]",0.6,0.1,medium_2clusters,42,0.0,0.0,0.0
+synthetic_medium_2clusters_seed42,louvain,baseline,2,0.018267154693603516,inf,synthetic_clustered,50,2,"[25, 25]",0.6,0.1,medium_2clusters,42,0.0,0.0,0.0
+synthetic_medium_2clusters_seed42,random_k2,baseline,2,2.9325485229492188e-05,inf,synthetic_clustered,50,2,"[25, 25]",0.6,0.1,medium_2clusters,42,0.0,0.0,0.0
+synthetic_medium_2clusters_seed123,CMG_gamma_5.0,CMG,14,0.1968083381652832,0.41691503228692867,synthetic_clustered,50,2,"[25, 25]",0.6,0.1,medium_2clusters,123,0.0,0.0,0.0
+synthetic_medium_2clusters_seed123,CMG_gamma_7.0,CMG,14,0.19311308860778809,0.41691503228692867,synthetic_clustered,50,2,"[25, 25]",0.6,0.1,medium_2clusters,123,0.0,0.0,0.0
+synthetic_medium_2clusters_seed123,CMG_gamma_10.0,CMG,14,0.19370555877685547,0.41691503228692867,synthetic_clustered,50,2,"[25, 25]",0.6,0.1,medium_2clusters,123,0.0,0.0,0.0
+synthetic_medium_2clusters_seed123,louvain,baseline,2,0.016126394271850586,inf,synthetic_clustered,50,2,"[25, 25]",0.6,0.1,medium_2clusters,123,0.0,0.0,0.0
+synthetic_medium_2clusters_seed123,random_k2,baseline,2,3.0040740966796875e-05,inf,synthetic_clustered,50,2,"[25, 25]",0.6,0.1,medium_2clusters,123,0.0,0.0,0.0
+synthetic_hard_2clusters_seed42,CMG_gamma_5.0,CMG,14,0.19666051864624023,0.38441757239258945,synthetic_clustered,50,2,"[25, 25]",0.4,0.2,hard_2clusters,42,0.0,0.0,0.0
+synthetic_hard_2clusters_seed42,CMG_gamma_7.0,CMG,14,0.19107747077941895,0.38441757239258945,synthetic_clustered,50,2,"[25, 25]",0.4,0.2,hard_2clusters,42,0.0,0.0,0.0
+synthetic_hard_2clusters_seed42,CMG_gamma_10.0,CMG,14,0.19111299514770508,0.38441757239258945,synthetic_clustered,50,2,"[25, 25]",0.4,0.2,hard_2clusters,42,0.0,0.0,0.0
+synthetic_hard_2clusters_seed42,louvain,baseline,2,0.021439075469970703,inf,synthetic_clustered,50,2,"[25, 25]",0.4,0.2,hard_2clusters,42,0.0,0.0,0.0
+synthetic_hard_2clusters_seed42,random_k2,baseline,2,3.0040740966796875e-05,inf,synthetic_clustered,50,2,"[25, 25]",0.4,0.2,hard_2clusters,42,0.0,0.0,0.0
+synthetic_hard_2clusters_seed123,CMG_gamma_5.0,CMG,12,0.17264008522033691,0.37943836850804197,synthetic_clustered,50,2,"[25, 25]",0.4,0.2,hard_2clusters,123,0.0,0.0,0.0
+synthetic_hard_2clusters_seed123,CMG_gamma_7.0,CMG,12,0.17074155807495117,0.37943836850804197,synthetic_clustered,50,2,"[25, 25]",0.4,0.2,hard_2clusters,123,0.0,0.0,0.0
+synthetic_hard_2clusters_seed123,CMG_gamma_10.0,CMG,12,0.18419146537780762,0.37943836850804197,synthetic_clustered,50,2,"[25, 25]",0.4,0.2,hard_2clusters,123,0.0,0.0,0.0
+synthetic_hard_2clusters_seed123,louvain,baseline,2,0.014134645462036133,inf,synthetic_clustered,50,2,"[25, 25]",0.4,0.2,hard_2clusters,123,0.0,0.0,0.0
+synthetic_hard_2clusters_seed123,random_k2,baseline,2,3.075599670410156e-05,inf,synthetic_clustered,50,2,"[25, 25]",0.4,0.2,hard_2clusters,123,0.0,0.0,0.0
+synthetic_easy_3clusters_seed42,CMG_gamma_5.0,CMG,15,0.2559943199157715,0.39033080255191815,synthetic_clustered,60,3,"[20, 20, 20]",0.7,0.05,easy_3clusters,42,0.0,0.0,0.0
+synthetic_easy_3clusters_seed42,CMG_gamma_7.0,CMG,15,0.2439746856689453,0.39033080255191815,synthetic_clustered,60,3,"[20, 20, 20]",0.7,0.05,easy_3clusters,42,0.0,0.0,0.0
+synthetic_easy_3clusters_seed42,CMG_gamma_10.0,CMG,15,0.24142956733703613,0.39033080255191815,synthetic_clustered,60,3,"[20, 20, 20]",0.7,0.05,easy_3clusters,42,0.0,0.0,0.0
+synthetic_easy_3clusters_seed42,louvain,baseline,3,0.01631903648376465,inf,synthetic_clustered,60,3,"[20, 20, 20]",0.7,0.05,easy_3clusters,42,0.0,0.0,0.0
+synthetic_easy_3clusters_seed42,random_k2,baseline,2,3.0279159545898438e-05,inf,synthetic_clustered,60,3,"[20, 20, 20]",0.7,0.05,easy_3clusters,42,0.0,0.0,0.0
+synthetic_easy_3clusters_seed123,CMG_gamma_5.0,CMG,15,0.2576320171356201,0.3980981903723354,synthetic_clustered,60,3,"[20, 20, 20]",0.7,0.05,easy_3clusters,123,0.0,0.0,0.0
+synthetic_easy_3clusters_seed123,CMG_gamma_7.0,CMG,15,0.29654502868652344,0.3980981903723354,synthetic_clustered,60,3,"[20, 20, 20]",0.7,0.05,easy_3clusters,123,0.0,0.0,0.0
+synthetic_easy_3clusters_seed123,CMG_gamma_10.0,CMG,15,0.34784793853759766,0.3980981903723354,synthetic_clustered,60,3,"[20, 20, 20]",0.7,0.05,easy_3clusters,123,0.0,0.0,0.0
+synthetic_easy_3clusters_seed123,louvain,baseline,3,0.016930818557739258,inf,synthetic_clustered,60,3,"[20, 20, 20]",0.7,0.05,easy_3clusters,123,0.0,0.0,0.0
+synthetic_easy_3clusters_seed123,random_k2,baseline,2,3.24249267578125e-05,inf,synthetic_clustered,60,3,"[20, 20, 20]",0.7,0.05,easy_3clusters,123,0.0,0.0,0.0
+synthetic_medium_4clusters_seed42,CMG_gamma_5.0,CMG,16,0.26165199279785156,0.350223593755421,synthetic_clustered,60,4,"[15, 15, 15, 15]",0.6,0.08,medium_4clusters,42,0.0,0.0,0.0
+synthetic_medium_4clusters_seed42,CMG_gamma_7.0,CMG,16,0.25894904136657715,0.350223593755421,synthetic_clustered,60,4,"[15, 15, 15, 15]",0.6,0.08,medium_4clusters,42,0.0,0.0,0.0
+synthetic_medium_4clusters_seed42,CMG_gamma_10.0,CMG,16,0.2614271640777588,0.350223593755421,synthetic_clustered,60,4,"[15, 15, 15, 15]",0.6,0.08,medium_4clusters,42,0.0,0.0,0.0
+synthetic_medium_4clusters_seed42,louvain,baseline,4,0.012979269027709961,inf,synthetic_clustered,60,4,"[15, 15, 15, 15]",0.6,0.08,medium_4clusters,42,0.0,0.0,0.0
+synthetic_medium_4clusters_seed42,random_k2,baseline,2,3.0040740966796875e-05,inf,synthetic_clustered,60,4,"[15, 15, 15, 15]",0.6,0.08,medium_4clusters,42,0.0,0.0,0.0
+synthetic_medium_4clusters_seed123,CMG_gamma_5.0,CMG,15,0.24851417541503906,0.3403862055548543,synthetic_clustered,60,4,"[15, 15, 15, 15]",0.6,0.08,medium_4clusters,123,0.0,0.0,0.0
+synthetic_medium_4clusters_seed123,CMG_gamma_7.0,CMG,15,0.24434399604797363,0.3403862055548543,synthetic_clustered,60,4,"[15, 15, 15, 15]",0.6,0.08,medium_4clusters,123,0.0,0.0,0.0
+synthetic_medium_4clusters_seed123,CMG_gamma_10.0,CMG,15,0.24318242073059082,0.3403862055548543,synthetic_clustered,60,4,"[15, 15, 15, 15]",0.6,0.08,medium_4clusters,123,0.0,0.0,0.0
+synthetic_medium_4clusters_seed123,louvain,baseline,4,0.014040708541870117,inf,synthetic_clustered,60,4,"[15, 15, 15, 15]",0.6,0.08,medium_4clusters,123,0.0,0.0,0.0
+synthetic_medium_4clusters_seed123,random_k2,baseline,2,2.9087066650390625e-05,inf,synthetic_clustered,60,4,"[15, 15, 15, 15]",0.6,0.08,medium_4clusters,123,0.0,0.0,0.0
+challenging_very_hard_2clusters,CMG_gamma_5.0,CMG,14,0.2383430004119873,0.3846910936310605,synthetic_challenging,60,2,,,,very_hard_2clusters,42,0.0,0.0,0.0
+challenging_very_hard_2clusters,CMG_gamma_7.0,CMG,14,0.2309281826019287,0.3846910936310605,synthetic_challenging,60,2,,,,very_hard_2clusters,42,0.0,0.0,0.0
+challenging_very_hard_2clusters,CMG_gamma_10.0,CMG,14,0.23735666275024414,0.3846910936310605,synthetic_challenging,60,2,,,,very_hard_2clusters,42,0.0,0.0,0.0
+challenging_very_hard_2clusters,louvain,baseline,2,0.026712417602539062,inf,synthetic_challenging,60,2,,,,very_hard_2clusters,42,0.0,0.0,0.0
+challenging_very_hard_2clusters,random_k2,baseline,2,3.1948089599609375e-05,inf,synthetic_challenging,60,2,,,,very_hard_2clusters,42,0.0,0.0,0.0
+challenging_single_cluster,CMG_gamma_5.0,CMG,13,0.19092679023742676,0.4509788967233014,synthetic_challenging,50,1,,,,single_cluster,42,0.0,0.0,0.0
+challenging_single_cluster,CMG_gamma_7.0,CMG,13,0.1797938346862793,0.4509788967233014,synthetic_challenging,50,1,,,,single_cluster,42,0.0,0.0,0.0
+challenging_single_cluster,CMG_gamma_10.0,CMG,13,0.19388055801391602,0.4509788967233014,synthetic_challenging,50,1,,,,single_cluster,42,0.0,0.0,0.0
+challenging_single_cluster,louvain,baseline,5,0.028423547744750977,inf,synthetic_challenging,50,1,,,,single_cluster,42,0.0,0.0,0.0
+challenging_single_cluster,random_k2,baseline,2,3.361701965332031e-05,inf,synthetic_challenging,50,1,,,,single_cluster,42,0.0,0.0,0.0

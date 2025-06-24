@@ -1,0 +1,212 @@
+2025-06-24 12:57:34,097 - INFO - ================================================================================
+2025-06-24 12:57:34,097 - INFO - CMG COMPREHENSIVE BASELINE COMPARISON
+2025-06-24 12:57:34,097 - INFO - ================================================================================
+2025-06-24 12:57:34,097 - INFO - Comparing CMG against established hierarchical clustering methods
+2025-06-24 12:57:34,097 - INFO - on controlled synthetic graphs across three categories:
+2025-06-24 12:57:34,097 - INFO -   1. CMG-Favorable: Sparse, hierarchical structures
+2025-06-24 12:57:34,097 - INFO -   2. Challenging: Intermediate density, mixed structures
+2025-06-24 12:57:34,097 - INFO -   3. CMG-Unfavorable: Dense graphs where CMG should struggle
+2025-06-24 12:57:34,097 - INFO - 
+2025-06-24 12:57:34,119 - INFO - 
+============================================================
+2025-06-24 12:57:34,119 - INFO - TESTING CATEGORY: CMG-Favorable
+2025-06-24 12:57:34,119 - INFO - ============================================================
+2025-06-24 12:57:34,119 - INFO - 
+----------------------------------------
+2025-06-24 12:57:34,119 - INFO - Graph: grid_hierarchical_small
+2025-06-24 12:57:34,119 - INFO - Description: 6x6 hierarchical grid
+2025-06-24 12:57:34,119 - INFO - ----------------------------------------
+2025-06-24 12:57:34,119 - INFO - Testing grid_hierarchical_small (CMG-Favorable): 36 nodes, 78 edges, density=0.119
+2025-06-24 12:57:34,202 - INFO -   CMG         :  3 communities, boundary=0.333, silhouette=0.128, runtime=0.074s
+2025-06-24 12:57:34,221 - INFO -   Ward        :  6 communities, boundary=1.000, silhouette=0.232, runtime=0.005s
+2025-06-24 12:57:34,235 - INFO -   Average     :  6 communities, boundary=1.000, silhouette=0.223, runtime=0.001s
+2025-06-24 12:57:34,245 - INFO -   Complete    :  6 communities, boundary=0.389, silhouette=0.223, runtime=0.000s
+2025-06-24 12:57:34,342 - INFO -   Spectral    :  6 communities, boundary=0.528, silhouette=0.172, runtime=0.066s
+2025-06-24 12:57:34,485 - INFO -   Modularity  :  2 communities, boundary=0.000, silhouette=-0.055, runtime=0.135s
+2025-06-24 12:57:34,486 - INFO - 
+----------------------------------------
+2025-06-24 12:57:34,486 - INFO - Graph: grid_hierarchical_medium
+2025-06-24 12:57:34,486 - INFO - Description: 8x8 hierarchical grid
+2025-06-24 12:57:34,486 - INFO - ----------------------------------------
+2025-06-24 12:57:34,486 - INFO - Testing grid_hierarchical_medium (CMG-Favorable): 64 nodes, 144 edges, density=0.069
+2025-06-24 12:57:34,614 - INFO -   CMG         :  4 communities, boundary=0.375, silhouette=0.098, runtime=0.113s
+2025-06-24 12:57:34,636 - INFO -   Ward        :  7 communities, boundary=1.000, silhouette=0.163, runtime=0.001s
+2025-06-24 12:57:34,657 - INFO -   Average     :  8 communities, boundary=0.375, silhouette=0.159, runtime=0.001s
+2025-06-24 12:57:34,679 - INFO -   Complete    :  8 communities, boundary=0.438, silhouette=0.144, runtime=0.000s
+2025-06-24 12:57:34,706 - INFO -   Spectral    :  8 communities, boundary=0.703, silhouette=0.148, runtime=0.005s
+2025-06-24 12:57:34,947 - INFO -   Modularity  :  2 communities, boundary=0.000, silhouette=-0.034, runtime=0.228s
+2025-06-24 12:57:34,947 - INFO - 
+----------------------------------------
+2025-06-24 12:57:34,947 - INFO - Graph: sparse_clusters_2x2
+2025-06-24 12:57:34,947 - INFO - Description: Sparse clustered graph with 4 subclusters
+2025-06-24 12:57:34,947 - INFO - ----------------------------------------
+2025-06-24 12:57:34,947 - INFO - Testing sparse_clusters_2x2 (CMG-Favorable): 60 nodes, 395 edges, density=0.206
+2025-06-24 12:57:35,260 - INFO -   CMG         : 17 communities, boundary=1.000, silhouette=0.098, runtime=0.286s
+2025-06-24 12:57:35,285 - INFO -   Ward        :  7 communities, boundary=1.000, silhouette=0.392, runtime=0.001s
+2025-06-24 12:57:35,312 - INFO -   Average     :  7 communities, boundary=1.000, silhouette=0.365, runtime=0.001s
+2025-06-24 12:57:35,336 - INFO -   Complete    :  7 communities, boundary=1.000, silhouette=0.422, runtime=0.000s
+2025-06-24 12:57:35,364 - INFO -   Spectral    :  5 communities, boundary=1.000, silhouette=0.579, runtime=0.005s
+2025-06-24 12:57:35,738 - INFO -   Modularity  :  8 communities, boundary=1.000, silhouette=-0.063, runtime=0.353s
+2025-06-24 12:57:35,739 - INFO - 
+----------------------------------------
+2025-06-24 12:57:35,739 - INFO - Graph: sparse_clusters_2x3
+2025-06-24 12:57:35,739 - INFO - Description: Sparse clustered graph with 6 subclusters
+2025-06-24 12:57:35,739 - INFO - ----------------------------------------
+2025-06-24 12:57:35,739 - INFO - Testing sparse_clusters_2x3 (CMG-Favorable): 72 nodes, 387 edges, density=0.137
+2025-06-24 12:57:36,159 - INFO -   CMG         : 20 communities, boundary=1.000, silhouette=0.290, runtime=0.387s
+2025-06-24 12:57:36,194 - INFO -   Ward        :  8 communities, boundary=1.000, silhouette=0.627, runtime=0.000s
+2025-06-24 12:57:36,225 - INFO -   Average     :  8 communities, boundary=1.000, silhouette=0.522, runtime=0.001s
+2025-06-24 12:57:36,255 - INFO -   Complete    :  8 communities, boundary=1.000, silhouette=0.627, runtime=0.001s
+2025-06-24 12:57:36,288 - INFO -   Spectral    :  6 communities, boundary=0.764, silhouette=0.575, runtime=0.005s
+2025-06-24 12:57:36,705 - INFO -   Modularity  : 12 communities, boundary=1.000, silhouette=-0.217, runtime=0.389s
+2025-06-24 12:57:36,705 - INFO - 
+----------------------------------------
+2025-06-24 12:57:36,705 - INFO - Graph: scale_free_hierarchical
+2025-06-24 12:57:36,705 - INFO - Description: Scale-free hierarchical network with 60 nodes
+2025-06-24 12:57:36,705 - INFO - ----------------------------------------
+2025-06-24 12:57:36,705 - INFO - Testing scale_free_hierarchical (CMG-Favorable): 60 nodes, 194 edges, density=0.093
+2025-06-24 12:57:36,828 - INFO -   CMG         :  4 communities, boundary=1.000, silhouette=0.102, runtime=0.108s
+2025-06-24 12:57:36,850 - INFO -   Ward        :  7 communities, boundary=1.000, silhouette=-0.099, runtime=0.000s
+2025-06-24 12:57:36,872 - INFO -   Average     :  7 communities, boundary=0.150, silhouette=-0.545, runtime=0.000s
+2025-06-24 12:57:36,893 - INFO -   Complete    :  7 communities, boundary=0.250, silhouette=-0.488, runtime=0.000s
+2025-06-24 12:57:36,916 - INFO -   Spectral    :  5 communities, boundary=0.900, silhouette=0.183, runtime=0.004s
+2025-06-24 12:57:37,223 - INFO -   Modularity  :  4 communities, boundary=1.000, silhouette=0.089, runtime=0.291s
+2025-06-24 12:57:37,223 - INFO - 
+============================================================
+2025-06-24 12:57:37,223 - INFO - TESTING CATEGORY: Challenging
+2025-06-24 12:57:37,223 - INFO - ============================================================
+2025-06-24 12:57:37,223 - INFO - 
+----------------------------------------
+2025-06-24 12:57:37,224 - INFO - Graph: small_world_moderate
+2025-06-24 12:57:37,224 - INFO - Description: Small-world hierarchical network n=50, p=0.3
+2025-06-24 12:57:37,224 - INFO - ----------------------------------------
+2025-06-24 12:57:37,224 - INFO - Testing small_world_moderate (Challenging): 50 nodes, 140 edges, density=0.094
+2025-06-24 12:57:37,354 - INFO -   CMG         :  6 communities, boundary=0.400, silhouette=0.033, runtime=0.116s
+2025-06-24 12:57:37,373 - INFO -   Ward        :  7 communities, boundary=0.700, silhouette=0.276, runtime=0.001s
+2025-06-24 12:57:37,390 - INFO -   Average     :  7 communities, boundary=0.560, silhouette=0.254, runtime=0.000s
+2025-06-24 12:57:37,407 - INFO -   Complete    :  7 communities, boundary=0.520, silhouette=0.114, runtime=0.000s
+2025-06-24 12:57:37,427 - INFO -   Spectral    :  7 communities, boundary=0.720, silhouette=0.264, runtime=0.004s
+2025-06-24 12:57:37,607 - INFO -   Modularity  :  2 communities, boundary=0.160, silhouette=0.055, runtime=0.170s
+2025-06-24 12:57:37,607 - INFO - 
+----------------------------------------
+2025-06-24 12:57:37,607 - INFO - Graph: small_world_dense
+2025-06-24 12:57:37,607 - INFO - Description: Small-world hierarchical network n=40, p=0.5
+2025-06-24 12:57:37,608 - INFO - ----------------------------------------
+2025-06-24 12:57:37,608 - INFO - Testing small_world_dense (Challenging): 40 nodes, 117 edges, density=0.127
+2025-06-24 12:57:37,728 - INFO -   CMG         :  8 communities, boundary=1.000, silhouette=0.092, runtime=0.109s
+2025-06-24 12:57:37,743 - INFO -   Ward        :  6 communities, boundary=0.875, silhouette=0.179, runtime=0.000s
+2025-06-24 12:57:37,755 - INFO -   Average     :  6 communities, boundary=0.575, silhouette=0.175, runtime=0.000s
+2025-06-24 12:57:37,770 - INFO -   Complete    :  6 communities, boundary=0.450, silhouette=0.125, runtime=0.000s
+2025-06-24 12:57:37,786 - INFO -   Spectral    :  6 communities, boundary=1.000, silhouette=0.169, runtime=0.004s
+2025-06-24 12:57:37,943 - INFO -   Modularity  :  2 communities, boundary=0.000, silhouette=0.020, runtime=0.148s
+2025-06-24 12:57:37,943 - INFO - 
+----------------------------------------
+2025-06-24 12:57:37,943 - INFO - Graph: mixed_topology
+2025-06-24 12:57:37,943 - INFO - Description: Mixed topology: grid + star, n=50
+2025-06-24 12:57:37,943 - INFO - ----------------------------------------
+2025-06-24 12:57:37,943 - INFO - Testing mixed_topology (Challenging): 50 nodes, 78 edges, density=0.043
+2025-06-24 12:57:38,036 - INFO -   CMG         : 42 communities, boundary=1.000, silhouette=0.878, runtime=0.060s
+2025-06-24 12:57:38,054 - INFO -   Ward        :  7 communities, boundary=1.000, silhouette=-0.520, runtime=0.000s
+2025-06-24 12:57:38,070 - INFO -   Average     :  7 communities, boundary=1.000, silhouette=-0.520, runtime=0.000s
+2025-06-24 12:57:38,085 - INFO -   Complete    :  7 communities, boundary=1.000, silhouette=-0.520, runtime=0.000s
+2025-06-24 12:57:38,102 - INFO -   Spectral    :  7 communities, boundary=1.000, silhouette=0.053, runtime=0.003s
+2025-06-24 12:57:38,271 - INFO -   Modularity  :  2 communities, boundary=0.080, silhouette=-0.006, runtime=0.160s
+2025-06-24 12:57:38,271 - INFO - 
+============================================================
+2025-06-24 12:57:38,271 - INFO - TESTING CATEGORY: CMG-Unfavorable
+2025-06-24 12:57:38,271 - INFO - ============================================================
+2025-06-24 12:57:38,271 - INFO - 
+----------------------------------------
+2025-06-24 12:57:38,271 - INFO - Graph: dense_clusters
+2025-06-24 12:57:38,271 - INFO - Description: Sparse clustered graph with 3 subclusters
+2025-06-24 12:57:38,271 - INFO - ----------------------------------------
+2025-06-24 12:57:38,271 - INFO - Testing dense_clusters (CMG-Unfavorable): 60 nodes, 959 edges, density=0.525
+2025-06-24 12:57:38,582 - INFO -   CMG         : 16 communities, boundary=1.000, silhouette=0.127, runtime=0.271s
+2025-06-24 12:57:38,619 - INFO -   Ward        :  7 communities, boundary=1.000, silhouette=0.246, runtime=0.001s
+2025-06-24 12:57:38,657 - INFO -   Average     :  7 communities, boundary=1.000, silhouette=0.151, runtime=0.001s
+2025-06-24 12:57:38,694 - INFO -   Complete    :  7 communities, boundary=1.000, silhouette=0.214, runtime=0.000s
+2025-06-24 12:57:38,733 - INFO -   Spectral    :  5 communities, boundary=1.000, silhouette=0.522, runtime=0.005s
+2025-06-24 12:57:39,366 - INFO -   Modularity  :  6 communities, boundary=1.000, silhouette=-0.265, runtime=0.602s
+2025-06-24 12:57:39,367 - INFO - 
+----------------------------------------
+2025-06-24 12:57:39,367 - INFO - Graph: bipartite_dense
+2025-06-24 12:57:39,367 - INFO - Description: Bipartite hierarchical n1=25, n2=25, p=0.6
+2025-06-24 12:57:39,367 - INFO - ----------------------------------------
+2025-06-24 12:57:39,367 - INFO - Testing bipartite_dense (CMG-Unfavorable): 50 nodes, 582 edges, density=0.455
+2025-06-24 12:57:39,460 - INFO -   CMG         :  2 communities, boundary=0.000, silhouette=0.004, runtime=0.071s
+2025-06-24 12:57:39,488 - INFO -   Ward        :  7 communities, boundary=1.000, silhouette=-0.832, runtime=0.000s
+2025-06-24 12:57:39,515 - INFO -   Average     :  7 communities, boundary=1.000, silhouette=-0.834, runtime=0.000s
+2025-06-24 12:57:39,541 - INFO -   Complete    :  6 communities, boundary=1.000, silhouette=-0.796, runtime=0.000s
+2025-06-24 12:57:39,571 - INFO -   Spectral    :  7 communities, boundary=0.000, silhouette=-0.001, runtime=0.004s
+2025-06-24 12:57:39,839 - INFO -   Modularity  :  2 communities, boundary=0.000, silhouette=-0.172, runtime=0.247s
+2025-06-24 12:57:39,839 - INFO - 
+================================================================================
+2025-06-24 12:57:39,839 - INFO - COMPREHENSIVE BASELINE COMPARISON ANALYSIS
+2025-06-24 12:57:39,839 - INFO - ================================================================================
+2025-06-24 12:57:39,839 - INFO - 
+📊 OVERALL RESULTS:
+2025-06-24 12:57:39,839 - INFO -    Total successful tests: 60
+2025-06-24 12:57:39,839 - INFO -    Methods compared: ['Complete', 'Modularity', 'Ward', 'Average', 'CMG', 'Spectral']
+2025-06-24 12:57:39,839 - INFO -    Graph categories: ['CMG-Favorable', 'CMG-Unfavorable', 'Challenging']
+2025-06-24 12:57:39,840 - INFO - 
+🏆 METHOD PERFORMANCE ANALYSIS:
+2025-06-24 12:57:39,840 - INFO -    Complete    : boundary=0.705, silhouette=0.007, perfect_boundary=5/10, runtime=0.000s
+2025-06-24 12:57:39,840 - INFO -    Modularity  : boundary=0.424, silhouette=-0.065, perfect_boundary=4/10, runtime=0.272s
+2025-06-24 12:57:39,840 - INFO -    Ward        : boundary=0.957, silhouette=0.066, perfect_boundary=8/10, runtime=0.001s
+2025-06-24 12:57:39,840 - INFO -    Average     : boundary=0.766, silhouette=-0.005, perfect_boundary=6/10, runtime=0.000s
+2025-06-24 12:57:39,840 - INFO -    CMG         : boundary=0.711, silhouette=0.185, perfect_boundary=6/10, runtime=0.160s
+2025-06-24 12:57:39,840 - INFO -    Spectral    : boundary=0.761, silhouette=0.267, perfect_boundary=4/10, runtime=0.011s
+2025-06-24 12:57:39,840 - INFO - 
+📈 CATEGORY PERFORMANCE ANALYSIS:
+2025-06-24 12:57:39,840 - INFO - 
+   Category: CMG-Favorable
+2025-06-24 12:57:39,840 - INFO -      Complete    : boundary=0.615, perfect=2/5
+2025-06-24 12:57:39,841 - INFO -      Modularity  : boundary=0.600, perfect=3/5
+2025-06-24 12:57:39,841 - INFO -      Ward        : boundary=1.000, perfect=5/5
+2025-06-24 12:57:39,841 - INFO -      Average     : boundary=0.705, perfect=3/5
+2025-06-24 12:57:39,841 - INFO -      CMG         : boundary=0.742, perfect=3/5
+2025-06-24 12:57:39,841 - INFO -      Spectral    : boundary=0.779, perfect=1/5
+2025-06-24 12:57:39,841 - INFO - 
+   Category: CMG-Unfavorable
+2025-06-24 12:57:39,841 - INFO -      Complete    : boundary=1.000, perfect=2/2
+2025-06-24 12:57:39,842 - INFO -      Modularity  : boundary=0.500, perfect=1/2
+2025-06-24 12:57:39,842 - INFO -      Ward        : boundary=1.000, perfect=2/2
+2025-06-24 12:57:39,842 - INFO -      Average     : boundary=1.000, perfect=2/2
+2025-06-24 12:57:39,842 - INFO -      CMG         : boundary=0.500, perfect=1/2
+2025-06-24 12:57:39,842 - INFO -      Spectral    : boundary=0.500, perfect=1/2
+2025-06-24 12:57:39,842 - INFO - 
+   Category: Challenging
+2025-06-24 12:57:39,842 - INFO -      Complete    : boundary=0.657, perfect=1/3
+2025-06-24 12:57:39,842 - INFO -      Modularity  : boundary=0.080, perfect=0/3
+2025-06-24 12:57:39,843 - INFO -      Ward        : boundary=0.858, perfect=1/3
+2025-06-24 12:57:39,843 - INFO -      Average     : boundary=0.712, perfect=1/3
+2025-06-24 12:57:39,843 - INFO -      CMG         : boundary=0.800, perfect=2/3
+2025-06-24 12:57:39,843 - INFO -      Spectral    : boundary=0.907, perfect=2/3
+2025-06-24 12:57:39,843 - INFO - 
+🎯 CMG-SPECIFIC ANALYSIS:
+2025-06-24 12:57:39,843 - INFO -    CMG on favorable graphs: boundary=0.742
+2025-06-24 12:57:39,843 - INFO -    CMG on unfavorable graphs: boundary=0.500
+2025-06-24 12:57:39,843 - INFO - 
+🥇 PERFORMANCE RANKINGS:
+2025-06-24 12:57:39,844 - INFO - 
+   CMG-Favorable - Top performers by boundary preservation:
+2025-06-24 12:57:39,844 - INFO -      1. Ward        : 1.000
+2025-06-24 12:57:39,844 - INFO -      2. Spectral    : 0.779
+2025-06-24 12:57:39,844 - INFO -      3. CMG         : 0.742
+2025-06-24 12:57:39,844 - INFO - 
+   CMG-Unfavorable - Top performers by boundary preservation:
+2025-06-24 12:57:39,844 - INFO -      1. Complete    : 1.000
+2025-06-24 12:57:39,845 - INFO -      2. Ward        : 1.000
+2025-06-24 12:57:39,845 - INFO -      3. Average     : 1.000
+2025-06-24 12:57:39,845 - INFO - 
+   Challenging - Top performers by boundary preservation:
+2025-06-24 12:57:39,845 - INFO -      1. Spectral    : 0.907
+2025-06-24 12:57:39,845 - INFO -      2. Ward        : 0.858
+2025-06-24 12:57:39,845 - INFO -      3. CMG         : 0.800
+2025-06-24 12:57:39,845 - INFO - 
+🎓 RESEARCH IMPLICATIONS:
+2025-06-24 12:57:39,845 - INFO -    📝 CMG shows competitive performance in optimal domain
+2025-06-24 12:57:39,846 - INFO -    📝 CMG more robust across structures than expected
+2025-06-24 12:57:39,846 - INFO - 
+================================================================================
+2025-06-24 12:57:39,851 - INFO - Results saved to validation_results/baseline_comparison_results_20250624_125739.json

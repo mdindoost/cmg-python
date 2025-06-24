@@ -1,0 +1,214 @@
+2025-06-24 11:50:55,030 - INFO - ================================================================================
+2025-06-24 11:50:55,031 - INFO - CMG GAMMA PARAMETER WEIGHT SENSITIVITY INVESTIGATION
+2025-06-24 11:50:55,031 - INFO - ================================================================================
+2025-06-24 11:50:55,031 - INFO - Testing hypothesis: Gamma insensitivity is caused by unweighted graphs
+2025-06-24 11:50:55,031 - INFO - Gamma values tested: [4.1, 5.0, 7.0, 10.0, 15.0, 20.0, 50.0, 100.0]
+2025-06-24 11:50:55,031 - INFO - Weight scenarios: ['unweighted', 'light_variation', 'moderate_variation', 'heavy_variation', 'extreme_variation', 'bimodal_weights']
+2025-06-24 11:50:55,031 - INFO - 
+2025-06-24 11:50:55,031 - INFO - 
+============================================================
+2025-06-24 11:50:55,031 - INFO - TESTING WEIGHT SCENARIO: UNWEIGHTED
+2025-06-24 11:50:55,031 - INFO - ============================================================
+2025-06-24 11:50:55,031 - INFO - Description: All edge weights = 1.0 (current testing)
+2025-06-24 11:50:55,036 - INFO - Created graph: 60 nodes, 393 edges
+2025-06-24 11:50:55,036 - INFO - Edge weights: 1.000000 - 1.000000
+2025-06-24 11:50:55,036 - INFO - Weight range ratio: 1.0x
+2025-06-24 11:50:55,105 - INFO -   γ=   4.1:  1 communities, purity=0.000, high_deg_nodes= 0, avg_wd=13.100
+2025-06-24 11:50:55,169 - INFO -   γ=   5.0:  1 communities, purity=0.000, high_deg_nodes= 0, avg_wd=13.100
+2025-06-24 11:50:55,231 - INFO -   γ=   7.0:  1 communities, purity=0.000, high_deg_nodes= 0, avg_wd=13.100
+2025-06-24 11:50:55,293 - INFO -   γ=  10.0:  1 communities, purity=0.000, high_deg_nodes= 0, avg_wd=13.100
+2025-06-24 11:50:55,354 - INFO -   γ=  15.0:  1 communities, purity=0.000, high_deg_nodes= 0, avg_wd=13.100
+2025-06-24 11:50:55,416 - INFO -   γ=  20.0:  1 communities, purity=0.000, high_deg_nodes= 0, avg_wd=13.100
+2025-06-24 11:50:55,478 - INFO -   γ=  50.0:  1 communities, purity=0.000, high_deg_nodes= 0, avg_wd=13.100
+2025-06-24 11:50:55,539 - INFO -   γ= 100.0:  1 communities, purity=0.000, high_deg_nodes= 0, avg_wd=13.100
+2025-06-24 11:50:55,539 - INFO - 
+  Scenario Analysis:
+2025-06-24 11:50:55,539 - INFO -     Gamma sensitive: False
+2025-06-24 11:50:55,539 - INFO -     Communities range: 1 - 1
+2025-06-24 11:50:55,539 - INFO -     Purity variation: 0.000000
+2025-06-24 11:50:55,539 - INFO -     High-degree nodes range: 0 - 0
+2025-06-24 11:50:55,539 - INFO -     ⚠️  GAMMA PARAMETER STILL INSENSITIVE in unweighted
+2025-06-24 11:50:55,540 - INFO - 
+============================================================
+2025-06-24 11:50:55,540 - INFO - TESTING WEIGHT SCENARIO: LIGHT_VARIATION
+2025-06-24 11:50:55,540 - INFO - ============================================================
+2025-06-24 11:50:55,540 - INFO - Description: Weights vary 2-5x (realistic networks)
+2025-06-24 11:50:55,542 - INFO - Created graph: 60 nodes, 393 edges
+2025-06-24 11:50:55,542 - INFO - Edge weights: 0.510123 - 2.481010
+2025-06-24 11:50:55,542 - INFO - Weight range ratio: 4.9x
+2025-06-24 11:50:55,843 - INFO -   γ=   4.1: 17 communities, purity=0.600, high_deg_nodes= 0, avg_wd=8.255
+2025-06-24 11:50:56,140 - INFO -   γ=   5.0: 17 communities, purity=0.600, high_deg_nodes= 0, avg_wd=8.255
+2025-06-24 11:50:56,437 - INFO -   γ=   7.0: 17 communities, purity=0.600, high_deg_nodes= 0, avg_wd=8.255
+2025-06-24 11:50:56,736 - INFO -   γ=  10.0: 17 communities, purity=0.600, high_deg_nodes= 0, avg_wd=8.255
+2025-06-24 11:50:57,043 - INFO -   γ=  15.0: 17 communities, purity=0.600, high_deg_nodes= 0, avg_wd=8.255
+2025-06-24 11:50:57,342 - INFO -   γ=  20.0: 17 communities, purity=0.600, high_deg_nodes= 0, avg_wd=8.255
+2025-06-24 11:50:57,648 - INFO -   γ=  50.0: 17 communities, purity=0.600, high_deg_nodes= 0, avg_wd=8.255
+2025-06-24 11:50:57,957 - INFO -   γ= 100.0: 17 communities, purity=0.600, high_deg_nodes= 0, avg_wd=8.255
+2025-06-24 11:50:57,957 - INFO - 
+  Scenario Analysis:
+2025-06-24 11:50:57,957 - INFO -     Gamma sensitive: False
+2025-06-24 11:50:57,957 - INFO -     Communities range: 17 - 17
+2025-06-24 11:50:57,957 - INFO -     Purity variation: 0.000000
+2025-06-24 11:50:57,957 - INFO -     High-degree nodes range: 0 - 0
+2025-06-24 11:50:57,957 - INFO -     ⚠️  GAMMA PARAMETER STILL INSENSITIVE in light_variation
+2025-06-24 11:50:57,957 - INFO - 
+============================================================
+2025-06-24 11:50:57,957 - INFO - TESTING WEIGHT SCENARIO: MODERATE_VARIATION
+2025-06-24 11:50:57,958 - INFO - ============================================================
+2025-06-24 11:50:57,958 - INFO - Description: Weights vary 10-20x (some heterogeneity)
+2025-06-24 11:50:57,960 - INFO - Created graph: 60 nodes, 393 edges
+2025-06-24 11:50:57,960 - INFO - Edge weights: 0.109617 - 1.981960
+2025-06-24 11:50:57,960 - INFO - Weight range ratio: 18.1x
+2025-06-24 11:50:58,325 - INFO -   γ=   4.1: 17 communities, purity=0.600, high_deg_nodes= 0, avg_wd=7.272
+2025-06-24 11:50:58,676 - INFO -   γ=   5.0: 17 communities, purity=0.600, high_deg_nodes= 0, avg_wd=7.272
+2025-06-24 11:50:59,011 - INFO -   γ=   7.0: 17 communities, purity=0.600, high_deg_nodes= 0, avg_wd=7.272
+2025-06-24 11:50:59,332 - INFO -   γ=  10.0: 17 communities, purity=0.600, high_deg_nodes= 0, avg_wd=7.272
+2025-06-24 11:50:59,650 - INFO -   γ=  15.0: 17 communities, purity=0.600, high_deg_nodes= 0, avg_wd=7.272
+2025-06-24 11:51:00,042 - INFO -   γ=  20.0: 17 communities, purity=0.600, high_deg_nodes= 0, avg_wd=7.272
+2025-06-24 11:51:00,392 - INFO -   γ=  50.0: 17 communities, purity=0.600, high_deg_nodes= 0, avg_wd=7.272
+2025-06-24 11:51:00,760 - INFO -   γ= 100.0: 17 communities, purity=0.600, high_deg_nodes= 0, avg_wd=7.272
+2025-06-24 11:51:00,760 - INFO - 
+  Scenario Analysis:
+2025-06-24 11:51:00,760 - INFO -     Gamma sensitive: False
+2025-06-24 11:51:00,760 - INFO -     Communities range: 17 - 17
+2025-06-24 11:51:00,761 - INFO -     Purity variation: 0.000000
+2025-06-24 11:51:00,761 - INFO -     High-degree nodes range: 0 - 0
+2025-06-24 11:51:00,761 - INFO -     ⚠️  GAMMA PARAMETER STILL INSENSITIVE in moderate_variation
+2025-06-24 11:51:00,761 - INFO - 
+============================================================
+2025-06-24 11:51:00,761 - INFO - TESTING WEIGHT SCENARIO: HEAVY_VARIATION
+2025-06-24 11:51:00,761 - INFO - ============================================================
+2025-06-24 11:51:00,761 - INFO - Description: Weights vary 100x (strong heterogeneity)
+2025-06-24 11:51:00,765 - INFO - Created graph: 60 nodes, 393 edges
+2025-06-24 11:51:00,765 - INFO - Edge weights: 0.015011 - 0.990600
+2025-06-24 11:51:00,765 - INFO - Weight range ratio: 66.0x
+2025-06-24 11:51:01,122 - INFO -   γ=   4.1: 17 communities, purity=0.600, high_deg_nodes= 0, avg_wd=7.006
+2025-06-24 11:51:01,465 - INFO -   γ=   5.0: 17 communities, purity=0.600, high_deg_nodes= 0, avg_wd=7.006
+2025-06-24 11:51:01,816 - INFO -   γ=   7.0: 17 communities, purity=0.600, high_deg_nodes= 0, avg_wd=7.006
+2025-06-24 11:51:02,126 - INFO -   γ=  10.0: 17 communities, purity=0.600, high_deg_nodes= 0, avg_wd=7.006
+2025-06-24 11:51:02,431 - INFO -   γ=  15.0: 17 communities, purity=0.600, high_deg_nodes= 0, avg_wd=7.006
+2025-06-24 11:51:02,737 - INFO -   γ=  20.0: 17 communities, purity=0.600, high_deg_nodes= 0, avg_wd=7.006
+2025-06-24 11:51:03,039 - INFO -   γ=  50.0: 17 communities, purity=0.600, high_deg_nodes= 0, avg_wd=7.006
+2025-06-24 11:51:03,336 - INFO -   γ= 100.0: 17 communities, purity=0.600, high_deg_nodes= 0, avg_wd=7.006
+2025-06-24 11:51:03,336 - INFO - 
+  Scenario Analysis:
+2025-06-24 11:51:03,337 - INFO -     Gamma sensitive: False
+2025-06-24 11:51:03,337 - INFO -     Communities range: 17 - 17
+2025-06-24 11:51:03,337 - INFO -     Purity variation: 0.000000
+2025-06-24 11:51:03,337 - INFO -     High-degree nodes range: 0 - 0
+2025-06-24 11:51:03,337 - INFO -     ⚠️  GAMMA PARAMETER STILL INSENSITIVE in heavy_variation
+2025-06-24 11:51:03,337 - INFO - 
+============================================================
+2025-06-24 11:51:03,337 - INFO - TESTING WEIGHT SCENARIO: EXTREME_VARIATION
+2025-06-24 11:51:03,337 - INFO - ============================================================
+2025-06-24 11:51:03,337 - INFO - Description: Weights vary 1000x+ (pathological case)
+2025-06-24 11:51:03,340 - INFO - Created graph: 60 nodes, 393 edges
+2025-06-24 11:51:03,341 - INFO - Edge weights: 0.001048 - 9.162639
+2025-06-24 11:51:03,341 - INFO - Weight range ratio: 8745.3x
+2025-06-24 11:51:03,645 - INFO -   γ=   4.1: 17 communities, purity=0.600, high_deg_nodes= 0, avg_wd=2.371
+2025-06-24 11:51:03,950 - INFO -   γ=   5.0: 17 communities, purity=0.600, high_deg_nodes= 0, avg_wd=2.371
+2025-06-24 11:51:04,259 - INFO -   γ=   7.0: 17 communities, purity=0.600, high_deg_nodes= 0, avg_wd=2.371
+2025-06-24 11:51:04,565 - INFO -   γ=  10.0: 17 communities, purity=0.600, high_deg_nodes= 0, avg_wd=2.371
+2025-06-24 11:51:04,874 - INFO -   γ=  15.0: 17 communities, purity=0.600, high_deg_nodes= 0, avg_wd=2.371
+2025-06-24 11:51:05,182 - INFO -   γ=  20.0: 17 communities, purity=0.600, high_deg_nodes= 0, avg_wd=2.371
+2025-06-24 11:51:05,487 - INFO -   γ=  50.0: 17 communities, purity=0.600, high_deg_nodes= 0, avg_wd=2.371
+2025-06-24 11:51:05,787 - INFO -   γ= 100.0: 17 communities, purity=0.600, high_deg_nodes= 0, avg_wd=2.371
+2025-06-24 11:51:05,787 - INFO - 
+  Scenario Analysis:
+2025-06-24 11:51:05,788 - INFO -     Gamma sensitive: False
+2025-06-24 11:51:05,788 - INFO -     Communities range: 17 - 17
+2025-06-24 11:51:05,789 - INFO -     Purity variation: 0.000000
+2025-06-24 11:51:05,789 - INFO -     High-degree nodes range: 0 - 0
+2025-06-24 11:51:05,789 - INFO -     ⚠️  GAMMA PARAMETER STILL INSENSITIVE in extreme_variation
+2025-06-24 11:51:05,789 - INFO - 
+============================================================
+2025-06-24 11:51:05,789 - INFO - TESTING WEIGHT SCENARIO: BIMODAL_WEIGHTS
+2025-06-24 11:51:05,789 - INFO - ============================================================
+2025-06-24 11:51:05,789 - INFO - Description: Two weight classes: very light + very heavy
+2025-06-24 11:51:05,793 - INFO - Created graph: 60 nodes, 393 edges
+2025-06-24 11:51:05,794 - INFO - Edge weights: 0.010000 - 10.000000
+2025-06-24 11:51:05,794 - INFO - Weight range ratio: 1000.0x
+2025-06-24 11:51:05,947 - INFO -   γ=   4.1:  6 communities, purity=0.200, high_deg_nodes= 0, avg_wd=4.226
+2025-06-24 11:51:06,105 - INFO -   γ=   5.0:  6 communities, purity=0.200, high_deg_nodes= 0, avg_wd=4.226
+2025-06-24 11:51:06,260 - INFO -   γ=   7.0:  6 communities, purity=0.200, high_deg_nodes= 0, avg_wd=4.226
+2025-06-24 11:51:06,420 - INFO -   γ=  10.0:  6 communities, purity=0.200, high_deg_nodes= 0, avg_wd=4.226
+2025-06-24 11:51:06,567 - INFO -   γ=  15.0:  6 communities, purity=0.200, high_deg_nodes= 0, avg_wd=4.226
+2025-06-24 11:51:06,720 - INFO -   γ=  20.0:  6 communities, purity=0.200, high_deg_nodes= 0, avg_wd=4.226
+2025-06-24 11:51:06,868 - INFO -   γ=  50.0:  6 communities, purity=0.200, high_deg_nodes= 0, avg_wd=4.226
+2025-06-24 11:51:07,022 - INFO -   γ= 100.0:  6 communities, purity=0.200, high_deg_nodes= 0, avg_wd=4.226
+2025-06-24 11:51:07,023 - INFO - 
+  Scenario Analysis:
+2025-06-24 11:51:07,023 - INFO -     Gamma sensitive: False
+2025-06-24 11:51:07,023 - INFO -     Communities range: 6 - 6
+2025-06-24 11:51:07,023 - INFO -     Purity variation: 0.000000
+2025-06-24 11:51:07,023 - INFO -     High-degree nodes range: 0 - 0
+2025-06-24 11:51:07,023 - INFO -     ⚠️  GAMMA PARAMETER STILL INSENSITIVE in bimodal_weights
+2025-06-24 11:51:07,023 - INFO - 
+================================================================================
+2025-06-24 11:51:07,023 - INFO - COMPREHENSIVE WEIGHT SENSITIVITY ANALYSIS
+2025-06-24 11:51:07,023 - INFO - ================================================================================
+2025-06-24 11:51:07,023 - INFO - 
+📊 SCENARIO-BY-SCENARIO ANALYSIS:
+2025-06-24 11:51:07,023 - INFO - 
+  UNWEIGHTED:
+2025-06-24 11:51:07,023 - INFO -     Weight range ratio: 1.0x
+2025-06-24 11:51:07,023 - INFO -     Communities: 1-1 (unique: 1)
+2025-06-24 11:51:07,023 - INFO -     Purities: 0.000-0.000
+2025-06-24 11:51:07,024 - INFO -     High-degree nodes: 0-0
+2025-06-24 11:51:07,024 - INFO -     Gamma sensitive: False
+2025-06-24 11:51:07,024 - INFO -     ❌ GAMMA INSENSITIVE in unweighted
+2025-06-24 11:51:07,024 - INFO - 
+  LIGHT_VARIATION:
+2025-06-24 11:51:07,024 - INFO -     Weight range ratio: 4.9x
+2025-06-24 11:51:07,024 - INFO -     Communities: 17-17 (unique: 1)
+2025-06-24 11:51:07,024 - INFO -     Purities: 0.600-0.600
+2025-06-24 11:51:07,024 - INFO -     High-degree nodes: 0-0
+2025-06-24 11:51:07,024 - INFO -     Gamma sensitive: False
+2025-06-24 11:51:07,024 - INFO -     ❌ GAMMA INSENSITIVE in light_variation
+2025-06-24 11:51:07,024 - INFO - 
+  MODERATE_VARIATION:
+2025-06-24 11:51:07,024 - INFO -     Weight range ratio: 18.1x
+2025-06-24 11:51:07,024 - INFO -     Communities: 17-17 (unique: 1)
+2025-06-24 11:51:07,024 - INFO -     Purities: 0.600-0.600
+2025-06-24 11:51:07,024 - INFO -     High-degree nodes: 0-0
+2025-06-24 11:51:07,024 - INFO -     Gamma sensitive: False
+2025-06-24 11:51:07,025 - INFO -     ❌ GAMMA INSENSITIVE in moderate_variation
+2025-06-24 11:51:07,025 - INFO - 
+  HEAVY_VARIATION:
+2025-06-24 11:51:07,025 - INFO -     Weight range ratio: 66.0x
+2025-06-24 11:51:07,025 - INFO -     Communities: 17-17 (unique: 1)
+2025-06-24 11:51:07,025 - INFO -     Purities: 0.600-0.600
+2025-06-24 11:51:07,025 - INFO -     High-degree nodes: 0-0
+2025-06-24 11:51:07,025 - INFO -     Gamma sensitive: False
+2025-06-24 11:51:07,025 - INFO -     ❌ GAMMA INSENSITIVE in heavy_variation
+2025-06-24 11:51:07,025 - INFO - 
+  EXTREME_VARIATION:
+2025-06-24 11:51:07,025 - INFO -     Weight range ratio: 8745.3x
+2025-06-24 11:51:07,025 - INFO -     Communities: 17-17 (unique: 1)
+2025-06-24 11:51:07,025 - INFO -     Purities: 0.600-0.600
+2025-06-24 11:51:07,025 - INFO -     High-degree nodes: 0-0
+2025-06-24 11:51:07,025 - INFO -     Gamma sensitive: False
+2025-06-24 11:51:07,025 - INFO -     ❌ GAMMA INSENSITIVE in extreme_variation
+2025-06-24 11:51:07,025 - INFO - 
+  BIMODAL_WEIGHTS:
+2025-06-24 11:51:07,025 - INFO -     Weight range ratio: 1000.0x
+2025-06-24 11:51:07,026 - INFO -     Communities: 6-6 (unique: 1)
+2025-06-24 11:51:07,026 - INFO -     Purities: 0.200-0.200
+2025-06-24 11:51:07,026 - INFO -     High-degree nodes: 0-0
+2025-06-24 11:51:07,026 - INFO -     Gamma sensitive: False
+2025-06-24 11:51:07,026 - INFO -     ❌ GAMMA INSENSITIVE in bimodal_weights
+2025-06-24 11:51:07,026 - INFO - 
+🎯 OVERALL CONCLUSIONS:
+2025-06-24 11:51:07,026 - INFO -    Gamma-sensitive scenarios: 0/6
+2025-06-24 11:51:07,026 - INFO -    ❌ GAMMA PARAMETER IS FUNDAMENTALLY BROKEN
+2025-06-24 11:51:07,026 - INFO -    📝 Implementation bug or theoretical misunderstanding
+2025-06-24 11:51:07,026 - INFO - 
+🔬 TECHNICAL INSIGHTS:
+2025-06-24 11:51:07,026 - INFO - 
+🎓 RESEARCH IMPLICATIONS:
+2025-06-24 11:51:07,026 - INFO -    📝 CMG gamma parameter has fundamental implementation issues
+2025-06-24 11:51:07,027 - INFO -    📝 Algorithm investigation and potential fixes needed
+2025-06-24 11:51:07,027 - INFO -    📝 Current algorithm may differ from paper specification
+2025-06-24 11:51:07,027 - INFO - 
+================================================================================
+2025-06-24 11:51:07,031 - INFO - Results saved to gamma_weight_investigation_20250624_115107.json
